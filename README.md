@@ -4,7 +4,7 @@ Based on this set: https://archive.ics.uci.edu/ml/datasets/adult, but can probab
 
 ```python
 #estimation of the weight of each categorical variable to the actual possibility of the income can be <=50K 
-categorical = ['workclass','education', 'marital-status']
+categorical = ['workclass','education', 'marital-status'] #All variables are not needed now, this is just a sample
 for feature in categorical:
   for value in np.unique(training_set[[feature]].values):
     avg_income = training_set.loc[df_train[feature] == value, 'income'].mean() #calculates the mean of each possibility for every categorical feature
