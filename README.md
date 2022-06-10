@@ -1,4 +1,4 @@
-# WOH
+# Weighted One-Hot
 Weighted One-Hot encoding model
 Based on this set: https://archive.ics.uci.edu/ml/datasets/adult, but can probabilly be applied to anyone
 
