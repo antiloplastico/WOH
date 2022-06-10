@@ -1,6 +1,6 @@
 # Weighted One-Hot
 Weighted One-Hot encoding model
-Based on this set: https://archive.ics.uci.edu/ml/datasets/adult, but can probabilly be applied to anyone
+Based on this set: https://archive.ics.uci.edu/ml/datasets/adult, but can be probabilly applied to anyone.
 
 ```python
 #estimation of the weight of each categorical variable to the actual possibility of the income can be <=50K 
